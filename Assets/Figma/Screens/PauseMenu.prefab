@@ -1270,19 +1270,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor.b
-      value: 0.34901962
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor.g
-      value: 0.33333334
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor.r
-      value: 0.34117648
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4284044631
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -1542,19 +1542,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor.b
-      value: 0.34901962
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor.g
-      value: 0.33333334
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor.r
-      value: 0.34117648
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4284044631
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -1818,19 +1818,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor.b
-      value: 0.34901962
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor.g
-      value: 0.33333334
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor.r
-      value: 0.34117648
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4284044631
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -2090,19 +2090,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor.b
-      value: 0.34901962
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor.g
-      value: 0.33333334
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor.r
-      value: 0.34117648
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 4284044631
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 4661369474279464278, guid: 4d0ecbef98036894b88090a80f997100, type: 3}
       propertyPath: m_TextStyleHashCode

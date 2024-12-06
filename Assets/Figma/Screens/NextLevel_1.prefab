@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 7358026896467504854}
   - component: {fileID: 7358920124570658363}
   - component: {fileID: 3616224576931115034}
+  - component: {fileID: 87401513833108066}
   m_Layer: 0
   m_Name: Score
   m_TagString: Untagged
@@ -37,7 +38,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 129, y: -80}
-  m_SizeDelta: {x: 137, y: 58}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1409839644732519093
 MonoBehaviour:
@@ -74,7 +75,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338621271625154479}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
@@ -96,7 +97,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4284044631
   m_fontColor: {r: 0.34038427, g: 0.33223104, b: 0.3471789, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -109,7 +110,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -170,6 +171,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_HorizontalFit: 2
   m_VerticalFit: 2
+--- !u!114 &87401513833108066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 338621271625154479}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ec2c697ccab6fe4c970b16a0aa9744c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scorePrefab: {fileID: 338621271625154479}
+  parentCanvas: {fileID: 710312821281068660}
+  _scoreText: {fileID: 7358920124570658363}
 --- !u!1 &1159492533315820258
 GameObject:
   m_ObjectHideFlags: 0
@@ -4152,7 +4168,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 1056, y: -202}
-  m_SizeDelta: {x: 115, y: 58}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &8592969576122566247
 MonoBehaviour:
@@ -4211,7 +4227,7 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
+    rgba: 4284044631
   m_fontColor: {r: 0.34038427, g: 0.33223104, b: 0.3471789, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
@@ -4224,7 +4240,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
