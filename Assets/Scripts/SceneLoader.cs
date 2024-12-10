@@ -3,14 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PlayerInput : MonoBehaviour
+public class SceneLoader : MonoBehaviour
 {
-    // Start is called before the first frame update
-    //[SerializeField] GameObject pauseMenu;
-    //private void Start()
-    //{
-    //    pauseMenu.SetActive(false);
-    //}
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -18,4 +13,12 @@ public class PlayerInput : MonoBehaviour
             SceneManager.LoadScene("PauseMenu");
         }
     }
+    public void LoadSceneByName(string name)
+    {
+        SceneManager.LoadScene(name);
+    }
+  
+
+
+   
 }
