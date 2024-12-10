@@ -5,7 +5,6 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour
 {
-
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
@@ -17,8 +16,19 @@ public class SceneLoader : MonoBehaviour
     {
         SceneManager.LoadScene(name);
     }
-  
+    private void Start()
+    {
+        string currentScene =SceneManager.GetActiveScene().name;
+        if (currentScene =="Level2")
+        {
+            Invoke("LoadGameOver",3f);
+        }
+    }
+    private void LoadGameOver()
+    {
+        SceneManager.LoadScene("GameOver");
+    }
 
 
-   
+
 }
