@@ -19,7 +19,7 @@ public class SceneLoader : MonoBehaviour
     private void Start()
     {
         string currentScene =SceneManager.GetActiveScene().name;
-        if (currentScene =="Level2")
+        if (currentScene =="Level2New")
         {
             Invoke("LoadGameOver",3f);
         }

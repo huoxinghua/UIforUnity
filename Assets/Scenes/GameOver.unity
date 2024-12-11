@@ -164,23 +164,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 517522693168609063, guid: ec20bfe5bb20251448822f370c8a1c57, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 517522693168609063, guid: ec20bfe5bb20251448822f370c8a1c57, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 3871718808663851677, guid: cd77eae08cf329b44a329cc502e691e8, type: 3}
+      objectReference: {fileID: 864431451}
     - target: {fileID: 517522693168609063, guid: ec20bfe5bb20251448822f370c8a1c57, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 517522693168609063, guid: ec20bfe5bb20251448822f370c8a1c57, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: GoBack
+      value: LoadSceneByName
       objectReference: {fileID: 0}
     - target: {fileID: 517522693168609063, guid: ec20bfe5bb20251448822f370c8a1c57, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
-      value: GotoPreviousScene, Assembly-CSharp
+      value: SceneLoader, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 517522693168609063, guid: ec20bfe5bb20251448822f370c8a1c57, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Level2New
       objectReference: {fileID: 0}
     - target: {fileID: 517522693168609063, guid: ec20bfe5bb20251448822f370c8a1c57, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
