@@ -5,9 +5,7 @@ using UnityEngine.SceneManagement;
 public class GotoPreviousScene : MonoBehaviour
 {
     private static List<string> sceneHistory = new List<string>();
-    private static List<string> menuHistory = new List<string>();
-
-
+    string currentScene = "SampleScene";
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.B))
@@ -24,16 +22,12 @@ public class GotoPreviousScene : MonoBehaviour
         }
     }
   
+    
     public void GoBack()
     {
-        if (menuHistory.Count > 0)
-        {
-           
-            string previousMenu = menuHistory[menuHistory.Count - 1];
-            Debug.Log("go to menu: " + previousMenu);
-           
-        }
-        else if (sceneHistory.Count > 0)
+   
+
+       if (sceneHistory.Count > 0)
         {
 
             string previousScene = sceneHistory[sceneHistory.Count - 1];
